@@ -1,21 +1,11 @@
 import React from 'react';
-import { StyleSheet, View, Text } from 'react-native';
+import { View, Text } from 'react-native';
+import { globalStyles } from '../styles/global';
 
 export default function ReviewDetails() {
     return (
-        <View style={styles.container}>
-            <Text style={styles.titleText}>ReviewDetails Screen</Text>
+        <View style={globalStyles.container}>
+            <Text style={globalStyles.titleText}>ReviewDetails Screen</Text>
         </View>
     )
 }
-
-const styles = StyleSheet.create({
-    container: {
-        padding: 34,
-    },
-
-    titleText: {
-        fontFamily: 'nunito-bold',
-        fontSize: 18,
-    },
-})
