@@ -3,14 +3,19 @@ import { StyleSheet, View, Text } from 'react-native';
 
 export default function About() {
     return (
-        <View style={StyleSheet.container}>
-            <Text>About Screen</Text>
+        <View style={styles.container}>
+            <Text style={styles.titleText}>About Screen</Text>
         </View>
     )
 }
 
 const styles = StyleSheet.create({
     container: {
-        padding: 24,
+        padding: 34,
+    },
+
+    titleText: {
+        fontFamily: 'nunito-bold',
+        fontSize: 18,
     },
 })
