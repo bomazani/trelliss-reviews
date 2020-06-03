@@ -1,6 +1,8 @@
 import React, {useState} from 'react';
 import * as Font from 'expo-font';
 import Home from './screens/home';
+import ReviewDetails from './screens/reviewDetails';
+import About from './screens/about';
 import { AppLoading } from 'expo';
 
 const getFonts = () => Font.loadAsync({
