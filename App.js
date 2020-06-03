@@ -5,6 +5,8 @@ import ReviewDetails from './screens/reviewDetails';
 import About from './screens/about';
 import { AppLoading } from 'expo';
 // import Navigator from './routes/homeStack';
+import HomeStack from './routes/homeStack';
+
 
 const getFonts = () => Font.loadAsync({
   'nunito-regular': require('./assets/fonts/Nunito-Regular.ttf'),
@@ -17,7 +19,8 @@ export default function App() {
   if(fontsLoaded){
     return (
       // <Home />
-      <Navigator />
+      // <Navigator />
+      <HomeStack />
     );
   } else {
     return (
