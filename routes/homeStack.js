@@ -1,5 +1,8 @@
-import { createStackNavigator } from 'react-navigation-stack';
-import { createAppContainer } from 'react-navigation';
+// import { createStackNavigator } from 'react-navigation-stack';
+import { createStackNavigator } from 'react-navigation/stack';
+// import { createAppContainer } from 'react-navigation';
+import { createAppContainer } from '@react-navigation/native';
+
 import Home from '../screens/home';
 import ReviewDetails from '../screens/reviewDetails';
 
